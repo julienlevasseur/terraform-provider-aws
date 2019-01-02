@@ -90,7 +90,7 @@ for full details on using Replication Groups.
 
 The following arguments are supported:
 
-* `replication_group_id` – (Required) The replication group identifier. This parameter is stored as a lowercase string.
+* `replication_group_id` – (Required) The replication group identifier. This parameter is stored as a lowercase string. Must contain from 1 to 20 alphanumeric characters or hyphens.
 * `replication_group_description` – (Required) A user-created description for the replication group.
 * `number_cache_clusters` - (Required for Cluster Mode Disabled) The number of cache clusters (primary and replicas) this replication group will have. If Multi-AZ is enabled, the value of this parameter must be at least 2. Updates will occur before other modifications.
 * `node_type` - (Required) The compute and memory capacity of the nodes in the node group.
